@@ -1,0 +1,8 @@
+{% extends 'detection/base.html' %}
+{% block content %}
+<div class="container">
+    <h1 class="mt-5">Système de Détection d'Incendie</h1>
+    <p>Bienvenue sur l'application de détection d'incendie.</p>
+    <a href="{% url 'detect_fire' %}" class="btn btn-danger">Démarrer la Détection</a>
+</div>
+{% endblock %}
