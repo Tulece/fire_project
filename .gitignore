@@ -1,0 +1,56 @@
+# Environnement virtuel
+venv/
+.env
+
+# Fichiers de log
+*.log
+
+# Fichiers de base de données SQLite (facultatif si vous n'avez pas besoin de versionner la base)
+db.sqlite3
+
+# Migrations (facultatif si vous ne souhaitez pas versionner les migrations)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Cache et fichiers temporaires de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Cache et fichiers temporaires de Django
+*.session
+*.pot
+*.py[cod]
+*.so
+__pycache__/
+*.pyo
+
+# Répertoires de cache
+*~
+*.swp
+.DS_Store
+.idea/
+.vscode/
+__MACOSX/
+
+# Modèle d'apprentissage
+*.h5
+
+# Fichiers de configuration locaux
+local_settings.py
+
+# Fichiers de Docker (si vous dockerisez le projet à l'avenir)
+docker-compose.yml
+Dockerfile
+
+# Pipenv/Poetry files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Jupyter Notebooks (facultatif)
+.ipynb_checkpoints/
+
+# node_modules (si vous utilisez du JavaScript avec npm)
+node_modules/
